@@ -1,33 +1,34 @@
-:root{
+:root {
   --green: #00ff00;
   --white: #ffffff;
   --black: #000000;
 }
-*{
+* {
   color: var(--fontColor);
   font-family: Helvetica;
 }
-body{
+body {
   background: var(--bg);
 }
-ul{
+ul {
   font-family: Helvetica;
 }
-li{
+li {
   list-style: circle;
 }
-.list{/*classe list*/
+.list {
+  /*classe list*/
   list-style: square;
 }
-.light-theme{
+.light-theme {
   color: #000000;
   background: #00ff00;
 }
-.btn{
+.btn {
   color: var(--btnFontColor);
   background-color: var(--btnBg);
 }
-.btn{
+.btn {
   position: absolute;
   top: 20px;
   left: 250px;
@@ -36,17 +37,19 @@ li{
   border-radius: 50%;
   border: none;
   color: var(--btnFontColor);
-  background-color:var(--btnBg);
+  background-color: var(--btnBg);
 }
-.btn:focus{outline-style: none;}
+.btn:focus {
+  outline-style: none;
+}
 
-.light-theme{
+.light-theme {
   --bg: var(--green);
   --fontColor: var(--black);
   --btnBg: var(--black);
   --btnFontColor: var(--white);
 }
-.dark-theme{
+.dark-theme {
   --bg: var(--black);
   --fontColor: var(--green);
   --btnBg: var(--white);
